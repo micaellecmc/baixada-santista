@@ -1,5 +1,131 @@
 /*o css acho legal a gente fazer tudo junto!!*/
 /*belezas chocolexxxxxxxx aurexxx farma aurexxxxxx*/
 /*kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
-h1, h2, h3{font-family: 'Lexend'}
-p, li{font-family: 'Didact Gothic', 'sans-serif'}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+
+@font-face {
+    font-family: 'KiwiSoda'; 
+    src: url('KiwiSoda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+  background-image: url(imagens/h1sfruit.png);
+  background-repeat: no-repeat;
+    animation: pular 0.5s infinite alternate;
+background-size: contain;
+background-position: center;
+text-align: center;
+padding: 50px;
+
+}
+
+
+h1, h2, h3{
+    font-family: 'KiwiSoda', cursive;
+    font-size: 50px;
+    font-weight: 550;
+    
+    
+}
+p{
+    font-family: 'Didact Gothic', 'sans-serif';
+    margin-bottom: 16px;
+    
+
+}
+
+body{
+background-size: cover  ;
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    
+margin: auto;
+background: rgba(255, 255, 255, 0.9   );
+border-radius: 12px;
+display: grid;
+place-items: center;
+padding: 30px 40px;
+margin: 40px auto;
+max-width: 1100px;
+padding-top: 0;
+position: relative;
+
+
+}
+
+footer{
+text-align: left;
+justify-self: start;
+margin-top: 1% ;
+
+
+
+}
+
+#listinha{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 25%;
+    list-style: none;
+}
+
+
+@font-face {
+    font-family: 'KiwiSoda'; 
+    src: url('KiwiSoda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1 span,
+h2 span,
+h3 span {
+  display: inline-block;
+  animation: pular 0.5s infinite alternate;
+}
+
+.space {
+  display: inline-block;
+  width: 0.35em;
+}
+
+.texto span {
+  display: inline-block;
+  animation: pular 0.5s infinite alternate;
+}
+
+@keyframes pular {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
+nav {
+
+    justify-content: center;
+
+}
+
+.home{
+    position: absolute ;
+    top: 20px;
+    left: 20px;
+
+
+}
